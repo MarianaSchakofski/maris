@@ -48,14 +48,17 @@ form {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    justify-content: left;
+    align-items: start;
 }
 
 form label {
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
-form input, form select {
-    padding: 10px;
+form input{
+    min-width: 100%;
+    padding: 7px;
     font-size: 16px;
     border: 1px solid #d400ff;
     border-radius: 5px;
@@ -63,7 +66,7 @@ form input, form select {
 
 footer {
     text-align: center;
-     background-color: #0e2133;
+    background-color: #0e2133;
     color: #f9f9f9;
     padding: 10px;
     margin-top: 40px;
@@ -85,3 +88,22 @@ nav a {
     color: #f9f9f9;
     text-decoration: none;
 }
+
+
+.botao, .botao2, .botao3, .botao4, .botao5{
+    border-radius: 7px;
+    margin-top: 10px;
+    border: none;
+    width: 87px;
+    height: 25px;
+    color: #13202a;
+    background-color: #ebfdff;
+    
+}
+
+.container_botoes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
